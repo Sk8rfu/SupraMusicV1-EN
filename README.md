@@ -27,7 +27,7 @@ yt-dlp (local binary)
 
 This version focuses on simplicity and stability, offering clean music playback from YouTube and Spotify (no Premium required) by converting Spotify tracks into YouTube equivalents.
 
-### 🚀 Features
+## 🚀 Features
 🎶 Play music from YouTube
 
 🎧 Play Spotify tracks (converted to YouTube automatically)
@@ -50,7 +50,7 @@ This version focuses on simplicity and stability, offering clean music playback 
 
 🟦 Slash commands
 
-### 🛠️ Technologies Used
+## 🛠️ Technologies Used
 Node.js
 
 discord.js v14
@@ -63,14 +63,14 @@ yt-dlp (local binary required)
 
 dotenv
 
-### 📦 Installation
+## 📦 Installation
 ```
 git clone https://github.com/Sk8rfu/SupraMusicV1-EN
 cd SupraMusicV1-EN
 npm install
 ```
 
-### ⚙️ Configuration
+## ⚙️ Configuration
 Create a .env file:
 
 env
@@ -79,7 +79,7 @@ TOKEN=YOUR_BOT_TOKEN
 
 CLIENT_ID=YOUR_ID_Application
 
-### 🔧 yt-dlp requirement
+## 🔧 yt-dlp requirement
 Place the yt-dlp binary next to musicHandler.js:
 
 ```
@@ -93,7 +93,7 @@ Make sure it is executable:
 chmod +x yt-dlp
 ```
 
-### ▶️ Running the Bot
+## ▶️ Running the Bot
 1. Register slash commands:
 ```
 node deploy-commands.js
@@ -104,25 +104,25 @@ node deploy-commands.js
 node index.js
 ```
 
-### 🎛️ Commands
-/play	Play a song from YouTube or Spotify
+## 🎛️ Commands
+/play	- Play a song from YouTube or Spotify
 
-/pause	Pause the current song
+/pause - Pause the current song
 
-/resume	Resume paused music
+/resume -	Resume paused music
 
-/skip	Skip the current song
+/skip -	Skip the current song
 
-/stop	Stop music and leave the channel
+/stop -	Stop music and leave the channel
 
-/queue	Show the current queue
+/queue - Show the current queue
 
-/nowplaying	Show the currently playing track
+/nowplaying -	Show the currently playing track
 
-/loop	Toggle loop mode
+/loop	- Toggle loop mode
 
 
-### 📂 Project Structure
+## 📂 Project Structure
 ```
 SupraMusicV1-EN/
 │── commands/
@@ -144,9 +144,9 @@ SupraMusicV1-EN/
 │── yt-dlp
 ```
 
-### 📝 License
+## 📝 License
 This project is licensed under the MIT License.
 
-### ⭐ Support
+## ⭐ Support
 If you like this project, consider giving it a star on GitHub.
 It helps the project grow and motivates further development.
